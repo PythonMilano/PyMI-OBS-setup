@@ -22,6 +22,6 @@ Le scene sono già pronte.
 * OBS manderà un avviso e bisogna farlo puntare al path giusto.
 * Le scene sono WaitScreen, SpeakerAndSlides, OnlySlides, OnlySpeaker.
 * Nel caso manchi qualcosa in "Sources" per una certa scena è possibile aggiungere con tasto destro sulla scena "Add Source".
-* Il setup delle slide è da fare la sera del meetup, vedi: CHECKLIST_ITA.md, OBS-Streams.excalidraw, in https://excalidraw.com/ usando "Open".
-
-
+* Il setup delle slide è da fare la sera del meetup, vedi: CHECKLIST_ITA.md
+* Lo schema degli stream è in OBS-Streams.excalidraw, aprire in https://excalidraw.com/ usando "Open".
+* Bisogna cambiare il nome degli speaker in speaker.html la sera del meetup.

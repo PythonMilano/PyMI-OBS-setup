@@ -1,8 +1,9 @@
 # Checklist per streaming video
 
 * host = membro dello staff pythonmilano
-* speaker = pinco pallinoO
+* speaker = pinco pallino
 
+* host edita il file speaker.html coi dati della serata
 * host attacca telecamera e microfoni
 * host avvia OBS studio
 * host si assicura che camera e microfoni vadano

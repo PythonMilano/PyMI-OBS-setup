@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PyMi Info Panel</title>
+    <style>
+      * {
+        font-family: "Comfortaa SemiBold";
+        color: white;
+        font-size: 34pt;
+        margin: 0px;
+      }
+      p {
+        margin: 15pt;
+      }
+      .author {
+        color: #ffbf00;
+        font-size: 110%;
+      }
+      @counter-style speaker {
+        system: cyclic;
+        symbols: "\1F5E8";
+        suffix: " ";
+      }
+      @counter-style role {
+        system: cyclic;
+        symbols: "\1F468\200D\1F3EB";
+        suffix: " ";
+      }
+      @counter-style company {
+        system: cyclic;
+        symbols: "\1F3E2""@";
+        suffix: " ";
+      }
+      ul {
+        margin: 0pt;
+        margin-left: 40pt;
+        margin-right: 15pt;
+      }
+      li {
+        list-style: none;
+        color: #34b4eb;
+      }
+      li.speaker {
+        list-style-type: speaker;
+        color: #ffbf00;
+        margin-top: 8pt;
+      }
+      li.role {
+        list-style-type: role;
+        color: #27e38b;
+      }
+      li.company {
+        list-style-type: company;
+      }
+      .large {
+        font-size: 110%;
+      }
+      .small {
+        font-size: 80%;
+      }
+      .tiny {
+        font-size: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li class="speaker">Luca Grazioli</li>
+      <li class="role tiny">ML Solution Architect</li>
+      <li class="company tiny">CARDO AI</li>
+
+      <li class="speaker">Luca Soato</li>
+      <li class="role tiny">Senior Data Engineer</li>
+      <li class="company tiny">CARDO AI</li>
+    </ul>
+    <!--p>Decoratori in Python</p-->
+    <p>Data pipelines with Kubernetes, Airflow and Spark</p>
+  </body>
+</html>

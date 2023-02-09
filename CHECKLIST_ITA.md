@@ -1,7 +1,15 @@
 # Checklist per streaming video
 
 * host = membro dello staff pythonmilano
-* speaker = pinco pallino
+* speaker = un-grande-pythonista
+
+## Il giorno prima
+
+* Caricare i microfoni
+* host deve aver generato la streaming key da YouTube per questo live
+  * (TODO scrivere qualche dettaglio su come fare)
+
+## Il giorno del meetup
 
 * host edita il file speaker.html coi dati della serata
 * host attacca telecamera e microfoni

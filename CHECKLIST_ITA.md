@@ -6,8 +6,8 @@
 ## Il giorno prima
 
 * Caricare i microfoni
-* host deve aver generato la streaming key da YouTube per questo live
-  * (TODO scrivere qualche dettaglio su come fare)
+* host deve aver generato la streaming da YouTube Studio
+  * (https://www.youtube.com/watch?v=VfzToppf_rw
 
 ## Il giorno del meetup
 

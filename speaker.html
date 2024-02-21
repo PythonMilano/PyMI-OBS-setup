@@ -8,7 +8,7 @@
       * {
         font-family: "Comfortaa SemiBold";
         color: white;
-        font-size: 52pt;
+        font-size: 48pt;
         margin: 0px;
       }
       p {
@@ -63,30 +63,37 @@
       .tiny {
         font-size: 60%;
       }
+
+      .first {
+        display: block;
+      }
+
+      .second {
+        display: none;
+      }
     </style>
   </head>
   <body>
 
-    <!--Comment
-    <ul>
-      <li class="speaker">Ilyas Chaoua</li>
-      <li class="role tiny">Machine Learning Engineer</li>
-      <li class="company tiny">VEDRAI</li>
-
-      <li class="speaker">Raffaele Bongo</li>
-      <li class="role tiny">Machine Learning Engineer</li>
-      <li class="company tiny">VEDRAI</li>
-    </ul>
-    <p>Scaling Machine Learning Training and Inference @Vedrai</p>
-    -->
+    <div class="first">
+      <ul>
+        <li class="speaker">Emanuele Fabbiani</li>
+        <li class="role small">Head of AI</li>
+        <li class="company small">xtream</li>
+      </ul>
+      <p>🧠 Is your marketing effective? Let Bayes decide!</p>  
+    </div>
 
 
+    <div class="second">
+      <ul>
+        <li class="speaker">Nathan Shammah</li>
+        <li class="role small">Chief Technology Officer</li>
+        <li class="company small">Unitary Fund</li>
+      </ul>
+      <p>⚛️ A Glimpse of the Quantum Data Jungle</p>
+    </div>
 
-    <ul>
-      <li class="speaker">Cesare Placanica</li>
-      <li class="role tiny">Senior Software Engineer Telco</li>
-      <li class="company tiny">Red Hat</li>
-    </ul>
-    <p>Django + Clean Architecture + Wine (drinkable Wine)</p>
+
   </body>
 </html>

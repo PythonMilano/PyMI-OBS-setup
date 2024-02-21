@@ -8,7 +8,7 @@
       * {
         font-family: "Comfortaa SemiBold";
         color: white;
-        font-size: 52pt;
+        font-size: 48pt;
         margin: 0px;
       }
       p {
@@ -63,27 +63,37 @@
       .tiny {
         font-size: 60%;
       }
+
+      .first {
+        display: block;
+      }
+
+      .second {
+        display: none;
+      }
     </style>
   </head>
   <body>
 
-    <!--Comment
-    -->
-
-    <ul>
-      <li class="speaker">Emanuele Fabbiani</li>
-      <li class="role tiny">Head of AI</li>
-      <li class="company tiny">xtream</li>
-    </ul>
-    <p>🧠 Is your marketing effective? Let Bayes decide!</p>
-
+    <div class="first">
+      <ul>
+        <li class="speaker">Emanuele Fabbiani</li>
+        <li class="role small">Head of AI</li>
+        <li class="company small">xtream</li>
+      </ul>
+      <p>🧠 Is your marketing effective? Let Bayes decide!</p>  
+    </div>
 
 
-    <ul>
-      <li class="speaker">Nathan Shammah</li>
-      <li class="role tiny">Chief Technology Officer</li>
-      <li class="company tiny">Unitary Fund</li>
-    </ul>
-    <p>⚛️ A Glimpse of the Quantum Data Jungle</p>
+    <div class="second">
+      <ul>
+        <li class="speaker">Nathan Shammah</li>
+        <li class="role small">Chief Technology Officer</li>
+        <li class="company small">Unitary Fund</li>
+      </ul>
+      <p>⚛️ A Glimpse of the Quantum Data Jungle</p>
+    </div>
+
+
   </body>
 </html>

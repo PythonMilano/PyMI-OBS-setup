@@ -25,3 +25,10 @@ Le scene sono già pronte.
 * Il setup delle slide è da fare la sera del meetup, vedi: CHECKLIST_ITA.md
 * Lo schema degli stream è in OBS-Streams.excalidraw, aprire in https://excalidraw.com/ usando "Open".
 * Bisogna cambiare il nome degli speaker in speaker.html la sera del meetup.
+
+## Setup for PyData
+
+* a new `scene_pydata.json` has been created, it should work for both pydata and pymi setup
+* it contains a new Background (Background PyData)
+* to switch from PyData to Pymi hide/show the correct background
+* a new Darken BG 2 has been created to fix some issues, we probably can use that also for PyMI

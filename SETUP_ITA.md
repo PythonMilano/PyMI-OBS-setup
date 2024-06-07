@@ -15,7 +15,10 @@ Le scene sono già pronte.
 # Setup
 
 * Collegare telecamera.
-* Collegare microfoni il pezzo a T è il trasmettitore.
+* Collegare microfoni il pezzo a T è una "sound card" a cui va collegato il trasmettitore dei microfoni.
+* Il marchio della sound card deve essere visibile se si guarda il PC dall'alto.
+* Il cavo giusto da usare è quello con i due jack neri (dovrebbe essere già collegato alla sound card)
+* Il tramettitore è il pezzo in mezzo nell'astuccio dei microfoni, va collegato con un jack nero.
 * Aprire OBS Studio.
 * Import Scene, puntare alla directory che contiene scene_pymi.json
 * Ci sarà un errore perché non troverà il file speaker.html

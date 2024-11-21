@@ -17,21 +17,23 @@ Le scene sono già pronte.
 * Collegare telecamera.
 * Collegare microfoni il pezzo a T è una "sound card" a cui va collegato il trasmettitore dei microfoni.
 * Il marchio della sound card deve essere visibile se si guarda il PC dall'alto.
-* Il cavo giusto da usare è quello con i due jack neri (dovrebbe essere già collegato alla sound card)
+* Il cavo giusto da usare è quello con i due jack neri, dovrebbe essere già collegato alla sound card.
+  * Nel caso non fosse collegato, il jack nero va nell'input rosa della sound card.
 * Il tramettitore è il pezzo in mezzo nell'astuccio dei microfoni, va collegato con un jack nero.
 * Aprire OBS Studio.
-* Import Scene, puntare alla directory che contiene scene_pymi.json
+* Import Scene, puntare alla directory che contiene scene_pymi.json oppure scene_pydata.json.
 * Ci sarà un errore perché non troverà il file speaker.html
 * OBS manderà un avviso e bisogna farlo puntare al path giusto.
 * Le scene sono WaitScreen, SpeakerAndSlides, OnlySlides, OnlySpeaker.
 * Nel caso manchi qualcosa in "Sources" per una certa scena è possibile aggiungere con tasto destro sulla scena "Add Source".
+* Per spostare elementi nella scena bisogna cliccare una volta sul lucchetto grigio dell'elemento.
 * Il setup delle slide è da fare la sera del meetup, vedi: CHECKLIST_ITA.md
 * Lo schema degli stream è in OBS-Streams.excalidraw, aprire in https://excalidraw.com/ usando "Open".
-* Bisogna cambiare il nome degli speaker in speaker.html la sera del meetup.
+* Bisogna cambiare il nome degli speaker in speaker.html la sera prima del meetup.
 
 ## Setup for PyData
 
-* a new `scene_pydata.json` has been created, it should work for both pydata and pymi setup
+* A new `scene_pydata.json` has been created, it should work for both pydata and pymi setup
 * it contains a new Background (Background PyData)
 * to switch from PyData to Pymi hide/show the correct background
 * a new Darken BG 2 has been created to fix some issues, we probably can use that also for PyMI

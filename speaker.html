@@ -70,11 +70,11 @@
 
       /* Swap the values of these two when the second speaker changes*/
       .first {
-        display: block;
+        display: none;
       }
 
       .second {
-        display: none;
+        display: block;
       }
 
     </style>
@@ -84,22 +84,23 @@
     <!-- When it's time to change speaker change "display: block"
          in the "style" tag above -->
 
-    <div class="first">
-      <ul>
-        <li class="speaker">Alberto Danese</li>
-        <li class="role small">Head of Data</li>
-        <li class="company small">Nexi</li>
-      </ul>
-      <p>Benchmarking AI/ML on local CPUs and GPUs: a reproducible pipeline for realistic evaluations</p>
-    </div>
 
-    <div class="second">
+    <div class="first">
       <ul>
         <li class="speaker">Alessandro Maserati</li>
         <li class="role small">AI Director</li>
         <li class="company small">Logol</li>
       </ul>
       <p>AI Adoption 3.0</p>
+    </div>
+
+    <div class="second">
+      <ul>
+        <li class="speaker">Bianca Lerma</li>
+        <li class="role small">Data Analyst and AI ethics</li>
+        <li class="company small">Deloitte</li>
+      </ul>
+      <p>From Principles to Practice: AI Ethics</p>
     </div>
 
   </body>
